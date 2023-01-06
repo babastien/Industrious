@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    line-height : 1.5;
+    font-weight: 100;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nav-gauche {
+    color: white;
+}
+
+.nav-droite {
+    color: grey;
+}
+
+.first-bloc {
+    background-image: linear-gradient(
+        120deg,
+        rgba(181, 0, 36, 0.6),
+        rgba(51, 51, 51, 0.6)),
+        url("./banner.jpg");
+    width: 100%;
+    height: 45vw;
+    background-position: top;
+}
+
+.first-bloc-bottom {
+    color: white;
+    text-align: center;
+    margin-top: 15vw;
+    font-size: larger;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.second-bloc {
+    background-image: url("./wallpaper.webp");
+}
+
+.second-bloc-top {
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 4vw;
+}
+
+h2 {
+    padding-bottom: 30px;
+    font-size:xx-large;
+}
+
+.carre {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 2%;
+}
+
+.second-bloc-middle, .second-bloc-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.icone {
+    color: rgb(202, 0, 0);
+    font-size: 80px;
+    padding-top: 10px;
+}
+
+.carre {
+    text-align: center;
+    padding: 50px;
+}
+
+h3 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.second-bloc-bottom {
+    padding-bottom: 30px;
+}
+
+.third-bloc {
+    background-image: linear-gradient(
+        120deg,
+        rgba(181, 0, 36, 0.6),
+        rgba(51, 51, 51, 0.6)),
+        url("./banner.jpg");
+    background-position: bottom;
+    width: 100%;
+    height: 450px;
+    padding-top: 60px;
+}
+
+/* .happy-end {
+    background-image: url("./im-done-my-work-meme.jpg");
+    width: 400px;
+    height: 380px;
+    margin: auto;
+    border-radius: 25%;
+    box-shadow: 0 0 5px 5px black inset;
+}    */
+
+.footer {
+    background-color: black;
+    color: grey;
+    padding: 15px;
+    text-align: right;
+}
